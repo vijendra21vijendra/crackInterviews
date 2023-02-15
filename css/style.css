@@ -1,0 +1,64 @@
+body{
+    background-color: powderblue;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background-color: black;
+}
+
+li:hover{
+    background-color: rebeccapurple;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer{
+    bottom: 0;
+    text-align: center;
+
+}
+
+.article{
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+article h3 {
+ color: orange;
+ margin-top: 0;
+ margin-bottom: 2px;
+}
+
+article p {
+    color : green;
+    padding-left: 30px;
+}
+
+article:hover{
+    background-color: white;
+}
